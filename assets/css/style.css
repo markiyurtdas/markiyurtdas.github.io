@@ -386,7 +386,7 @@ input:focus, textarea:focus {
 .banner-area-marki {
     padding: 400px 0 350px;
     background-color: #b0b0b0;
-    background-image: url("../images/yufkacım-banner.png");
+    background-image: url("../images/yufkacım-banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -413,12 +413,7 @@ input:focus, textarea:focus {
     }
 }
 
-.banner-area2 {
-    padding: 210px 0 160px;
-    background-image: url("../images/about-bg.jpg");
-    position: relative;
-    z-index: 1
-}
+
 
 .banner-area2:after {
     content: '';
@@ -3099,6 +3094,31 @@ h6 {
     color: #fff
 }
 
+.row-custom{
+    text-align:center;
+    margin:0 auto;
+}
+
+.row-custom .col-md-3{
+    display:inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.button-custom {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button3 {width: 100%;}
+
+
 .template-btn {
     color: #131230;
     background: #ffb606;
@@ -3109,6 +3129,36 @@ h6 {
     border: 1px solid transparent;
     display: inline-block;
     padding: 12px 30px !important;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all 0.5s
+}
+.template-btn-custom {
+    color: #131230;
+    background: #ffb606;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 20px 50px !important;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all 0.5s
+}
+.template-btn-custom:hover {
+    color: #131230;
+    background: transparent;
+    border: 1px solid #ffb606
+
+}
+.template-btn-custom span {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    color: #131230;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
